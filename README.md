@@ -1,8 +1,45 @@
-# React + Vite
+# Castro's Libros Marketplace - Frontend & Mantenedor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene la parte del frontend y el mantenedor para una librería del Castro's Libros Marketplace.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto se enfoca en proporcionar la interfaz de usuario para un ecommerce de libros, junto con un mantenedor que permite gestionar la librería asociada al marketplace.
+
+## Funcionalidades Principales
+
+- **Interfaz de Usuario Ecommerce:** Proporciona una experiencia de compra para libros.
+- **Mantenedor de Librería:** Permite la gestión (agregar, editar, eliminar) de libros en la librería del marketplace.
+
+## Tecnologías Utilizadas
+
+- React
+- React Router Dom
+- Styled Components
+- Axios
+- SweetAlert2
+- @splidejs/react-splide
+- @splidejs/splide
+
+## Scripts Disponibles
+
+- `npm run dev`: Inicia el servidor de desarrollo.
+- `npm run build`: Genera la versión de producción del proyecto.
+- `npm run lint`: Ejecuta ESLint para el código.
+- `npm run preview`: Previsualiza la versión de producción antes del despliegue.
+
+## Instalación
+
+1. Clona el repositorio: `git clone <url_del_repositorio.git>`
+2. Instala las dependencias: `npm install`
+
+## Uso
+
+- Ejecuta `npm run dev` para iniciar el servidor de desarrollo.
+- Accede a `http://localhost:3000` en tu navegador.
+
+
+---
+
+Si tienes alguna pregunta, no dudes en contactar al equipo de desarrollo.
+
