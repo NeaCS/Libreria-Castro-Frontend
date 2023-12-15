@@ -1,0 +1,103 @@
+.castros-banner {
+  max-width: 1690px;
+  margin: auto;
+}
+
+.castros-banner__contenedor {
+  position: relative;
+}
+
+.castros-banner__contenedor-imagen {
+  height: 646px;
+  position: relative;
+}
+
+.castros-banner__filtro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
+}
+
+.castros-banner__contenedor-imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.castros-banner__contenido {
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+}
+
+.castros-banner-titulo {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.castros-banner-parrafo {
+  color: #fff;
+  font-size: 26px;
+  line-height: 35px;
+  padding-bottom: 29px;
+}
+
+.castros-banner-btn {
+  background-color: #959273;
+  border-radius: 6px;
+  width: max-content;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.castros-banner-btn:hover {
+  background-color: #5d573f;
+}
+
+.castros-banner-btn a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.splide__pagination {
+  bottom: -1.5rem;
+}
+
+.splide__pagination__page.is-active {
+  transform: scale(1.5);
+  background: #959273;
+}
+
+.splide_pagination_page {
+  background-color: #c4c4c4;
+}
+
+@media screen and (max-width: 768px) {
+  .castros-banner__contenedor-imagen {
+    height: 400px;
+  }
+
+  .castros-banner__contenido {
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .castros-banner-titulo {
+    font-size: 1.5rem;
+  }
+
+  .castros-banner-parrafo {
+    font-size: 0.8rem;
+    padding-bottom: 15px;
+  }
+}
