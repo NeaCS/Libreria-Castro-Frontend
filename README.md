@@ -30,7 +30,7 @@ Este proyecto se enfoca en proporcionar la interfaz de usuario para un ecommerce
 
 ## Instalación
 
-1. Clona el repositorio: `git clone <url_del_repositorio.git>`
+1. Clona el repositorio: `git clone https://github.com/NeaCS/Libreria-Castro-Frontend.git`
 2. Instala las dependencias: `npm install`
 
 ## Uso
